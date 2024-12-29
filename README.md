@@ -62,7 +62,7 @@ sweetalert2
     npm i
     ```
 2. Create a `.env.local` file containing API keys and Firebase credentials.
-3. Run the API server from [HR-Hub-Pro-Server](https://github.com/younusFoysal/HR-Hub-Pro-Server).
+3. Run the API server from [HR-Hub-Pro-V2-Server](https://github.com/younusFoysal/HR-Hub-Pro-V2-Server).
 4. Run the development server:
     ```sh
     npm run dev

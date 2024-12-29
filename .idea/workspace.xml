@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/public/user-bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/user-old.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/userbw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Common/AIHelper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/PostReview.jsx" afterDir="false" />
+    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="Export to pdf, AI Assistant, Review added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/AdminMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/AdminMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/EmployeeMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/EmployeeMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/HrMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/HrMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shared/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useRole.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Admin/AdminStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Admin/AdminStatistics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Employee/EmployeeStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Employee/EmployeeStatistics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Employee/WorkSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Employee/WorkSheet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/HrStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/HrStatistics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/ProfileDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/ProfileDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,14 +163,7 @@
       <workItem from="1735297906346" duration="1719000" />
       <workItem from="1735452389848" duration="1238000" />
       <workItem from="1735508960650" duration="18000" />
-    </task>
-    <task id="LOCAL-00002" summary="payment system added">
-      <option name="closed" value="true" />
-      <created>1717444034859</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717444034859</updated>
+      <workItem from="1735508985864" duration="1282000" />
     </task>
     <task id="LOCAL-00003" summary="payment conditions updated">
       <option name="closed" value="true" />
@@ -575,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735059276906</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Export to pdf, AI Assistant, Review added">
+      <option name="closed" value="true" />
+      <created>1735509054866</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1735509054866</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +565,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Contact up start" />
     <MESSAGE value="Contact us done" />
     <MESSAGE value="admin contact page start" />
     <MESSAGE value="admin Msg page done" />
@@ -608,7 +589,8 @@
     <MESSAGE value="Header updated" />
     <MESSAGE value="readme updated" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="Export to pdf, AI Assistant, Review added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Export to pdf, AI Assistant, Review added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
