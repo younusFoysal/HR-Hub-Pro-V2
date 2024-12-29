@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['jquery', 'datatables.net', 'datatables.net-dt']
+    include: ['jspdf','jspdf-autotable','jquery', 'datatables.net', 'datatables.net-dt']
   },
   resolve: {
     alias: {
