@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="Export to pdf, AI Assistant, Review added">
+    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="package updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,23 +164,7 @@
       <workItem from="1735297906346" duration="1719000" />
       <workItem from="1735452389848" duration="1238000" />
       <workItem from="1735508960650" duration="18000" />
-      <workItem from="1735508985864" duration="1282000" />
-    </task>
-    <task id="LOCAL-00003" summary="payment conditions updated">
-      <option name="closed" value="true" />
-      <created>1717446524601</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717446524601</updated>
-    </task>
-    <task id="LOCAL-00004" summary="chart done">
-      <option name="closed" value="true" />
-      <created>1717448232223</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717448232223</updated>
+      <workItem from="1735508985864" duration="3081000" />
     </task>
     <task id="LOCAL-00005" summary="payment history table done">
       <option name="closed" value="true" />
@@ -557,7 +542,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735509054866</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Export to pdf, AI Assistant, Review added">
+      <option name="closed" value="true" />
+      <created>1735510809060</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1735510809060</updated>
+    </task>
+    <task id="LOCAL-00053" summary="package updated">
+      <option name="closed" value="true" />
+      <created>1735511705211</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1735511705211</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +566,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Contact us done" />
     <MESSAGE value="admin contact page start" />
     <MESSAGE value="admin Msg page done" />
     <MESSAGE value="fav icon added" />
@@ -590,7 +590,8 @@
     <MESSAGE value="readme updated" />
     <MESSAGE value="done" />
     <MESSAGE value="Export to pdf, AI Assistant, Review added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Export to pdf, AI Assistant, Review added" />
+    <MESSAGE value="package updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="package updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
