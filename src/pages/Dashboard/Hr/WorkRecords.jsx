@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import jsPDF from 'jspdf';
-import 'jspdf-autotable';
 import LoadingSpinner from '../../../components/Shared/LoadingSpinner.jsx';
 import useAxiosSecure from "../../../hooks/useAxiosSecure.jsx";
 
@@ -67,7 +65,10 @@ const WorkRecords = () => {
         }));
     };
 
-    const exportToPDF = () => {
+    const exportToPDF = async () => {
+        const jsPDF = (await import(`jspdf`)).default
+        await import(`jspdf-autotable`)
+
         const doc = new jsPDF();
         const tableData = filteredWorks.map((work) => [
             work.task,
