@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import LoadingSpinner from '../../../components/Shared/LoadingSpinner.jsx';
 import useAxiosSecure from "../../../hooks/useAxiosSecure.jsx";
+import jsPDF from 'jspdf';
+import 'jspdf-autotable';
+
 
 const WorkRecords = () => {
     const [selectedEmployee, setSelectedEmployee] = useState('');
@@ -66,8 +69,8 @@ const WorkRecords = () => {
     };
 
     const exportToPDF = async () => {
-        const jsPDF = (await import(`jspdf`)).default
-        await import(`jspdf-autotable`)
+        //const jsPDF = (await import(`jspdf`)).default
+        //await import(`jspdf-autotable`)
 
         const doc = new jsPDF();
         const tableData = filteredWorks.map((work) => [
