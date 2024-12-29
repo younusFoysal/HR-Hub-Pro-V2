@@ -7,6 +7,9 @@ import useRole from '../../../../hooks/useRole'
 import useAxiosSecure from '../../../../hooks/useAxiosSecure'
 import toast from 'react-hot-toast'
 import useAuth from '../../../../hooks/useAuth.js'
+import {RiRobot3Fill} from "react-icons/ri";
+import {FaPeopleGroup} from "react-icons/fa6";
+import {MdOutlineRateReview} from "react-icons/md";
 
 
 const HrMenu = () => {
@@ -20,7 +23,7 @@ const HrMenu = () => {
         <>
 
             <MenuItem
-                icon={BsFingerprint}
+                icon={FaPeopleGroup }
                 label='Employee Llist'
                 address='employee-list'
             />
@@ -28,6 +31,16 @@ const HrMenu = () => {
                 icon={CiViewList}
                 label='Work Records'
                 address='progress'
+            />
+            <MenuItem
+                icon={RiRobot3Fill}
+                label='AI Assistant'
+                address='aiassistant'
+            />
+            <MenuItem
+                icon={MdOutlineRateReview}
+                label='Give Review'
+                address='addreview'
             />
 
 

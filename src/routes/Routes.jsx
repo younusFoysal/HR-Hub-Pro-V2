@@ -18,6 +18,8 @@ import ContactUs from "../components/Home/ContactUS.jsx";
 import Messages from "../pages/Dashboard/Admin/Messages.jsx";
 import HrRoute from "./HrRoute.jsx";
 import AdminRoute from "./AdminRoute.jsx";
+import AIHelper from "../pages/Dashboard/Common/AIHelper.jsx";
+import PostReview from "../pages/Dashboard/Hr/PostReview.jsx";
 
 
 export const router = createBrowserRouter([
@@ -34,7 +36,6 @@ export const router = createBrowserRouter([
                 path: '/contact-us',
                 element: <ContactUs />
             }
-
         ],
     },
     { path: '/login', element: <Login /> },
@@ -59,6 +60,10 @@ export const router = createBrowserRouter([
                 path: 'profile',
                 element: <PrivateRoute><Profile></Profile></PrivateRoute>
             },
+            {
+                path: 'aiassistant',
+                element: <PrivateRoute><AIHelper></AIHelper></PrivateRoute>
+            },
             // Employee Routes
             {
                 path: 'work-sheet',
@@ -81,6 +86,10 @@ export const router = createBrowserRouter([
             {
                 path: "progress",
                 element: <HrRoute><WorkRecords></WorkRecords></HrRoute>
+            },
+            {
+                path: "addreview",
+                element: <HrRoute><PostReview></PostReview></HrRoute>
             },
             // Admin Routes
             {

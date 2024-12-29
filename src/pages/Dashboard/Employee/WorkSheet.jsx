@@ -7,6 +7,8 @@ import useAxiosSecure from '../../../hooks/useAxiosSecure'
 import toast from 'react-hot-toast'
 import { useNavigate } from 'react-router-dom'
 import LoadingSpinner from "../../../components/Shared/LoadingSpinner.jsx";
+import jsPDF from 'jspdf';
+import 'jspdf-autotable';
 
 const WorkSheet = () => {
     const navigate = useNavigate()
@@ -79,6 +81,25 @@ const WorkSheet = () => {
         },
     })
 
+
+    const exportToPDF = () => {
+        const doc = new jsPDF();
+        doc.text("Work Records", 14, 10);
+
+        const tableData = works.map(work => [
+            work.task,
+            `${work.whrs} hr`,
+            formatDate(work.date),
+        ]);
+
+        doc.autoTable({
+            head: [['Task', 'Hours Worked', 'Date']],
+            body: tableData,
+        });
+
+        doc.save('work_records.pdf');
+    };
+
     if (isLoading) return <LoadingSpinner />
 
     function formatDate(dateStr) {
@@ -98,7 +119,7 @@ const WorkSheet = () => {
 
             {/* Form */}
             <div className="flex items-center justify-center p-12">
-                <div className="mx-auto w-full max-w-[550px] bg-white">
+                <div className="flex justify-evenly items-center mx-auto w-full  bg-white">
                     <form onSubmit={handleSubmit}>
                         <div className="flex space-x-4 items-center">
                             <div className="flex flex-col justify-center w-1/4">
@@ -123,10 +144,13 @@ const WorkSheet = () => {
                                 <label className="block text-base font-medium text-transparent">Add</label>
                             </div>
                         </div>
+
+
+
                         <div className="flex space-x-4 items-center mt-2">
                             <div className="w-1/4">
                                 <select id="task" name="task" required
-                                        className="w-full h-12 border-2 border-sky-500 focus:outline-none focus:border-sky-500 text-sky-500 rounded px-3 py-2 tracking-wider">
+                                        className="w-full h-12 border-2 border-green-600 focus:outline-none focus:border-green-600 text-green-600 rounded px-3 py-2 tracking-wider">
                                     <option defaultValue="sales" value="sales">Sales</option>
                                     <option value="support">Support</option>
                                     <option value="content">Content</option>
@@ -135,30 +159,47 @@ const WorkSheet = () => {
                             </div>
                             <div className="w-1/4">
                                 <input type="number" name="whrs" id="whrs" placeholder="7" required
-                                       className="w-full h-12 rounded border-2 border-[#e0e0e0] bg-white text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] px-3 py-2"/>
+                                       className="w-full h-12 rounded border-2 border-[#e0e0e0] bg-white text-base font-medium text-[#6B7280] outline-none focus:border-green-600 px-3 py-2"/>
                             </div>
                             <div className="w-1/4">
                                 <input type="date" name="date" id="date" required
-                                       className="w-full h-12 rounded border-2 border-[#e0e0e0] bg-white text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] px-3 py-2"/>
+                                       className="w-full h-12 rounded border-2 border-[#e0e0e0] bg-white text-base font-medium text-[#6B7280] outline-none focus:border-green-600 px-3 py-2"/>
                             </div>
                             <div className="w-1/4">
                                 <button
                                     type="submit"
-                                    className="hover:shadow-form rounded bg-[#6A64F1] text-base font-semibold text-white outline-none h-12 px-6">
+                                    className="hover:shadow-form rounded bg-green-600 text-base font-semibold text-white outline-none h-12 px-6">
                                     Add
                                 </button>
                             </div>
+
                         </div>
                     </form>
+
+                    {/* Export Button */}
+                    <div className="flex justify-end px-10 py-4">
+                        <button
+                            onClick={exportToPDF}
+                            className="hover:shadow-form rounded bg-green-600 text-base font-semibold text-white outline-none h-12 px-6">
+                            Export PDF
+                        </button>
+                    </div>
+
+
+
                 </div>
+
+
             </div>
+
+
 
 
             {/* Table */}
             <div className="shadow-lg rounded-lg overflow-hidden mx-4 md:mx-10">
                 <table className="w-full table-fixed">
                     <thead>
-                    <tr className="bg-gray-100">
+                    <tr className="bg-green-100">
                         <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Tasks</th>
                         <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Hours Worked</th>
                         <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Date</th>

@@ -60,7 +60,7 @@ const HrStatistics = () => {
     return (
         <div>
             <div
-                className="h-full w-full animated-background bg-gradient-to-tr from-lime-600 via-emerald-600 to-teal-800">
+                className="h-full w-full bg-green-600">
 
                 {/*<div className="flex flex-wrap gap-4 justify-center pt-32">*/}
                 {/*    <div*/}

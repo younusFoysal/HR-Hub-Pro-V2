@@ -57,7 +57,7 @@ const AdminStatistics = () => {
     return (
         <div>
             <div
-                className="h-full w-full animated-background bg-gradient-to-tr from-lime-600 via-emerald-600 to-teal-800">
+                className="h-full w-full bg-green-600 ">
 
                 {/*<div className="flex flex-wrap gap-4 justify-center pt-32">*/}
                 {/*    <div*/}
@@ -79,7 +79,7 @@ const AdminStatistics = () => {
 
                 <section className="relative overflow-hidden">
                     <img className="absolute top-0 h-full w-full object-cover object-center opacity-30"
-                         src=""/>
+                         src="" alt="img"/>
 
                     <div
                         className="bg-white/30 relative mx-auto flex h-full w-full flex-col items-center justify-center px-4 py-6 backdrop-blur-md sm:px-6 sm:py-6 lg:px-8 lg:py-10">

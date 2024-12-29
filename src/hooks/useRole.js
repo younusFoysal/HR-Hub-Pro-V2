@@ -14,7 +14,7 @@ const useRole = () => {
         },
     })
 
-    //   Fetch user info using logged-in user email
+    //   Fetch user info using logged in user email
 
     return [role, isLoading]
 }

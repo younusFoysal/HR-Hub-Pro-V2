@@ -80,7 +80,7 @@ const ProfileDetails = () => {
 
     return (
         <div>
-            <h1 className="text-2xl md:text-3xl pl-2 my-2 border-l-4 text-lime-500  font-sans font-bold border-lime-400">
+            <h1 className="text-2xl md:text-3xl pl-2 my-2 border-l-4 text-green-600  font-sans font-bold border-green-600">
                 Profile: {name}
             </h1>
 
@@ -106,7 +106,7 @@ const ProfileDetails = () => {
 
                     <div className="p-4 border-t mx-8 mt-2">
                         <button
-                            className="w-1/2 block mx-auto rounded-full bg-gray-900 hover:shadow-lg font-semibold text-white px-6 py-2">Follow
+                            className="w-1/2 block mx-auto rounded-full bg-green-600 hover:shadow-lg font-semibold text-white px-6 py-2">Follow
                         </button>
                     </div>
                 </div>

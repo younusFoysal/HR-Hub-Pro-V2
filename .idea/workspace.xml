@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="readme updated" />
+    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/public/user-bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user-old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/userbw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Common/AIHelper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/PostReview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/AdminMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/AdminMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/EmployeeMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/EmployeeMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/HrMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Menu/HrMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shared/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useRole.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Admin/AdminStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Admin/AdminStatistics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Employee/EmployeeStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Employee/EmployeeStatistics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Employee/WorkSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Employee/WorkSheet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/HrStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/HrStatistics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/ProfileDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/ProfileDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +53,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/younusFoysal/HR-Hub-Pro-Client.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/younusFoysal/HR-Hub-Pro-V2.git&quot;,
     &quot;accountId&quot;: &quot;7d4174a4-de1d-441b-ae48-928297f55341&quot;
   }
 }</component>
@@ -50,32 +71,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/WebStrom Projects/Milestone-12/HrHubProV2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "two.files.diff.last.used.file": "D:/dev/Milestone-12/b9a12-client-side-younusFoysal/src/pages/Dashboard/Admin/AdminEmployeeList/cars.jsx",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebStrom Projects/Milestone-12/HrHubProv2Server&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/dev/Milestone-12/b9a12-client-side-younusFoysal/src/pages/Dashboard/Admin/AdminEmployeeList/cars.jsx&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -154,14 +176,12 @@
       <workItem from="1734200569374" duration="3576000" />
       <workItem from="1734337644107" duration="785000" />
       <workItem from="1735058639187" duration="428000" />
-    </task>
-    <task id="LOCAL-00001" summary="hr pay modal added">
-      <option name="closed" value="true" />
-      <created>1717432376543</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717432376543</updated>
+      <workItem from="1735059080633" duration="1051000" />
+      <workItem from="1735065599330" duration="990000" />
+      <workItem from="1735114280774" duration="34000" />
+      <workItem from="1735297906346" duration="1719000" />
+      <workItem from="1735452389848" duration="1238000" />
+      <workItem from="1735508960650" duration="18000" />
     </task>
     <task id="LOCAL-00002" summary="payment system added">
       <option name="closed" value="true" />
@@ -547,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723996619364</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="done">
+      <option name="closed" value="true" />
+      <created>1735059276906</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1735059276906</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +583,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Home CTA added" />
     <MESSAGE value="Contact up start" />
     <MESSAGE value="Contact us done" />
     <MESSAGE value="admin contact page start" />
@@ -580,7 +607,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="Header updated" />
     <MESSAGE value="readme updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme updated" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

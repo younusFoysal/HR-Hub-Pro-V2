@@ -3,6 +3,7 @@ import MenuItem from './MenuItem'
 import {BsFingerprint} from "react-icons/bs";
 import { PiUsersThreeLight } from "react-icons/pi";
 import { IoMailUnreadOutline } from "react-icons/io5";
+import {RiRobot3Fill} from "react-icons/ri";
 
 const AdminMenu = () => {
     return (
@@ -16,6 +17,11 @@ const AdminMenu = () => {
                 icon={IoMailUnreadOutline}
                 label='Messages'
                 address='all-messages'
+            />
+            <MenuItem
+                icon={RiRobot3Fill}
+                label='AI Assistant'
+                address='aiassistant'
             />
         </>
     )
