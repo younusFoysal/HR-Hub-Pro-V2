@@ -10,7 +10,7 @@
 
 ## Live Link:
 
- [https://hr-hub-pro.web.app](https://hr-hub-pro.web.app) 
+ [https://hrhubpro.web.app](https://hrhubpro.web.app) 
 
 ## Overview:
 **HR Hub Pro** is a web-based human resources management system designed to streamline HR processes and improve organizational efficiency. It addresses several key HR challenges:
