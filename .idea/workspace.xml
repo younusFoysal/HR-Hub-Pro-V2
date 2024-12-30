@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="package updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Hr/WorkRecords.jsx" afterDir="false" />
+    <list default="true" id="809f18d6-0d24-4e48-862c-3bf865c969b9" name="Changes" comment="pdf fix">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WebStrom Projects/Milestone-12/HrHubProv2Server&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/dev/Milestone-12/b9a12-client-side-younusFoysal/src/pages/Dashboard/Admin/AdminEmployeeList/cars.jsx&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/WebStrom Projects/Milestone-12/HrHubProV2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "two.files.diff.last.used.file": "D:/dev/Milestone-12/b9a12-client-side-younusFoysal/src/pages/Dashboard/Admin/AdminEmployeeList/cars.jsx",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -165,38 +165,7 @@
       <workItem from="1735452389848" duration="1238000" />
       <workItem from="1735508960650" duration="18000" />
       <workItem from="1735508985864" duration="3658000" />
-    </task>
-    <task id="LOCAL-00006" summary="payment hist table done">
-      <option name="closed" value="true" />
-      <created>1717452511539</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717452511539</updated>
-    </task>
-    <task id="LOCAL-00007" summary="admin employee list page design done">
-      <option name="closed" value="true" />
-      <created>1717484297610</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717484297610</updated>
-    </task>
-    <task id="LOCAL-00008" summary="make hr function done">
-      <option name="closed" value="true" />
-      <created>1717485479116</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717485479116</updated>
-    </task>
-    <task id="LOCAL-00009" summary="employee fire implemented">
-      <option name="closed" value="true" />
-      <created>1717497966863</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717497966863</updated>
+      <workItem from="1735513331452" duration="3560000" />
     </task>
     <task id="LOCAL-00010" summary="fire employee cant login done">
       <option name="closed" value="true" />
@@ -558,7 +527,39 @@
       <option name="project" value="LOCAL" />
       <updated>1735512867864</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="package updated">
+      <option name="closed" value="true" />
+      <created>1735513926180</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1735513926180</updated>
+    </task>
+    <task id="LOCAL-00056" summary="package updated">
+      <option name="closed" value="true" />
+      <created>1735514214380</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1735514214380</updated>
+    </task>
+    <task id="LOCAL-00057" summary="pdf fix">
+      <option name="closed" value="true" />
+      <created>1735514479486</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1735514479486</updated>
+    </task>
+    <task id="LOCAL-00058" summary="pdf fix">
+      <option name="closed" value="true" />
+      <created>1735515171825</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1735515171825</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +567,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="admin contact page start" />
     <MESSAGE value="admin Msg page done" />
     <MESSAGE value="fav icon added" />
     <MESSAGE value="fav icon changed" />
@@ -591,7 +591,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="Export to pdf, AI Assistant, Review added" />
     <MESSAGE value="package updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="package updated" />
+    <MESSAGE value="pdf fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

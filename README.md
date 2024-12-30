@@ -35,6 +35,18 @@ Admin Email: boss@gmail.com
 Admin Pass: )yuxZdUzG3!fj8b
 ```
 
+### HR Credentials:
+```
+HR Email: asif123@gmail.com
+HR Pass: Asif@123
+```
+
+### Employee Credentials:
+```
+Employee Email: roy@gmail.com
+Employee Pass: Roy@123
+```
+
 
 Installed Npm Packages:
 ```
